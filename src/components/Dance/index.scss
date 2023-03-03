@@ -16,11 +16,10 @@
       background-color: #000000;
    }
 
-
-   
    .dance-spacing {
       height: 20px;
    }
+
    .dance-title {
       align-self: center;
       justify-self: center;
@@ -34,25 +33,25 @@
       letter-spacing: 2px;
       margin: auto;
 
-      
-
       article {
-         background: linear-gradient(
+         /* background: linear-gradient(
            to right, 
            #ff7006, 
            #ff0861
-         );
-         background-clip: text;
-         -webkit-text-fill-color: transparent;
+         ); */
+         color: #ff0861;
+         background: transparent;
+         /* background-clip: text; */
+         /* -webkit-text-fill-color: transparent; */
          text-align: center;
-       }
-       
-       h1 {
+      }
+
+      h1 {
          font-size: 8vmin;
          line-height: 1.1;
-       }
-       
-       body {
+      }
+
+      body {
          background: hsl(204 100% 5%);
          min-block-size: 100%;
          min-inline-size: 100%;
@@ -61,7 +60,7 @@
          place-content: center;
          font-family: system-ui;
          font-size: min(200%, 5vmin);
-       }
+      }
    }
 
    .dance-content {
@@ -74,15 +73,19 @@
    .cards-container {
       display: wrap;
    }
+
+   
 }
 
 
 @media (min-width: 768px) {
+
+   /* TODO: maintain the same format of the dance classes when aplling this media query */
    .dance-container {
       min-height: 812px;
 
       .header-bg {
-         height: 240px;
+         height: 130px;
       }
 
       .cards-container {
@@ -92,6 +95,8 @@
          flex-wrap: wrap;
          justify-content: space-evenly;
       }
+
+      /* TODO: make two columns when showing professors and scharacteristics of the classes */
 
    }
 

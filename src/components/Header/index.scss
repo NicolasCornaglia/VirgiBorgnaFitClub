@@ -245,11 +245,13 @@ html {
    .header-desktop-content {
       background-color: transparent;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      margin: auto;
+      width: 80vw;
    }
 
    .logo {
-      height: 200px;
+      height: 90px;
       padding: 20px 0 20px 0;
    }
 
@@ -273,7 +275,7 @@ html {
          text-decoration: none;
          display: flex;
          font-weight: bolder;
-         font-size: 14px;
+         font-size: 12px;
          padding: 1vw;
          color: rgba($color: #FFF, $alpha: 0.8);
       }

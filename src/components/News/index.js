@@ -20,10 +20,14 @@ const News = () => {
                   <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten</p>
                   <div className='news-links'>
                      <div className='dance'>
-                        <a href='/'>Baile</a>
+                        <h4>Baile</h4>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform' target="_blank" rel="noopener noreferrer">Kids</a>
                      </div>
                      <div className='musical-comedy'>
-                        <a href='/'>Comedia musical</a>
+                        <h4>Comedia Musical</h4>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform' target="_blank" rel="noopener noreferrer">Kids I, II, III (de 4 a 13 años)</a>
+                        <br/>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform' target="_blank" rel="noopener noreferrer">Adolescentes y adultos (de 14 años en adelante)</a>
                      </div>
                   </div>
 

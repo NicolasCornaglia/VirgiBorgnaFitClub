@@ -2,7 +2,7 @@ import './index.scss'
 import Footer from '../Footer'
 import Activity from '../Activity'
 import fitDanceAdultosImg from '../../assets/img/IMG_8551.JPG'
-
+/* import danceVideo from '../../assets/videos/Video-BAILE.MP4' */
 
 const Dance = () => {
    let classImage = fitDanceAdultosImg;
@@ -31,7 +31,15 @@ const Dance = () => {
       <>
          <div className='dance-container'>
             <div className='header-bg'></div>
-            <div className='dance-spacing'></div>
+            {/* <div className='dance-spacing'></div> */}
+{/*             <div className='dance-video'>
+                  <video class="fullscreen" src={danceVideo} playsinline autoPlay muted loop>
+                  </video>
+
+                  <div class="content">
+                     <h1>CLASES DE BAILE</h1>
+                  </div>
+            </div> */}
             <div className='dance-title'>
                <article>
                   <h1>CLASES DE BAILE</h1>

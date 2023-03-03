@@ -33,9 +33,9 @@ const Header = () => {
                   <li><a href='/about'>QUIENES SOMOS</a></li>
                   <li><a href='/'>NOVEDADES</a></li>
                   <li><a href='/dance'>BAILE</a></li>
-                  <li><a href='/'>COMEDIA MUSICAL</a></li>
+                  <li><a href='/comedy'>COMEDIA MUSICAL</a></li>
                   <li><a href='/'>CONTACTANOS</a></li>
-                  <li><a href='/'>PREGUNTAS FRECUENTES</a></li>
+                  <li><a href='/faq'>PREGUNTAS FRECUENTES</a></li>
                </ul>
             </section>
 
@@ -52,11 +52,11 @@ const Header = () => {
                      <a href='/' className='dropbtn'>CLASES <img src={downArrow} alt='downarrow' className='down-arrow' /></a>
                      <div className='dropdown-content'>
                         <a href='/dance' className='navbar-link drop-link'>BAILE</a>
-                        <a href='/' className='navbar-link drop-link'>COMEDIA MUSICAL</a>
+                        <a href='/comedy' className='navbar-link drop-link'>COMEDIA MUSICAL</a>
                      </div>
                   </div>
                   <div className='navbar-link'><a href='/'>CONTACTANOS</a></div>
-                  <div className='navbar-link'><a href='/'>PREGUNTAS FRECUENTES</a></div>
+                  <div className='navbar-link'><a href='/faq'>PREGUNTAS FRECUENTES</a></div>
                </div>
 
                <div className='logo-container'>

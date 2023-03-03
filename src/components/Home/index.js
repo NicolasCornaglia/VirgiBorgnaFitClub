@@ -6,7 +6,7 @@ import News from '../News'
 /* import Staff from '../Staff' */
 import BackgroundVideo from '../BackgroundVideo';
 import Footer from '../Footer'
-import Galery from '../Galery'
+/* import Galery from '../Galery' */
 
 const Home = () => {
    return (
@@ -43,12 +43,9 @@ const Home = () => {
                   <div className='img-wrapper'>
                      <a href='/'>
                         <img src={imgBaile2} alt='welcome-picture3' className='welcome-image' />
-                        <div className='img-text'><p>CONOCENOS</p></div>
+                        <div className='img-text'><p>QUIENES<br />SOMOS</p></div>
                      </a>
                   </div>
-
-
-
                </div>
             </div>
 

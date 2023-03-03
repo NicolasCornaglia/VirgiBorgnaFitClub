@@ -7,7 +7,6 @@ const BackgroundVideo = () => {
          <div className='video-container'>
             <video id="background-video" src={danceVideo} type="video/mp4" autoPlay loop muted className='video' />
          </div>
-
       </>
    )
 }
