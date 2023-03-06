@@ -1,0 +1,28 @@
+.img-changer {
+    border-radius: 30px;
+    aspect-ratio: 6/4;
+    width: 75vw;
+    position: relative;
+    animation: mymove 5s infinite ease-in;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@keyframes mymove {
+    0%   {object-fit: fill; opacity: 1;background-image: url(../../assets/img/B_1561.JPG)   }
+    25%  {object-fit: fill; opacity: 0.5;background-image: url(../../assets/img/B_1561.JPG)};
+    50%  {object-fit: fill; opacity: 1; background-image: url(../../assets/img/B_1612.JPG) }
+    75%  {object-fit: fill; opacity: 0.5; background-image: url(../../assets/img/B_1612.JPG)}
+    100% {object-fit: fill; opacity: 1;background-image: url(../../assets/img/B_1561.JPG) }
+}
+
+@media (min-width: 768px) {
+    .img-changer {
+        object-position: 50% 50%;
+        width: 40vw;
+        max-height: 530px;
+        margin: 0;
+        max-width: 700px;
+    }
+}

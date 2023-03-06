@@ -3,7 +3,6 @@ import imgBaile1 from '../../assets/img/B_1561.JPG'
 import imgBaile2 from '../../assets/img/B_1612.JPG'
 import imgCM1 from '../../assets/img/CM-VB-727-modif.jpg'
 import News from '../News'
-/* import Staff from '../Staff' */
 import BackgroundVideo from '../BackgroundVideo';
 import Footer from '../Footer'
 /* import Galery from '../Galery' */
@@ -52,10 +51,10 @@ const Home = () => {
             <News />
             {/* <Staff /> */}
             {/* <Galery /> */}
-            
-         <footer className='footer'>
-            <Footer />
-         </footer>
+
+            <footer className='footer'>
+               <Footer />
+            </footer>
 
          </div>
       </div>

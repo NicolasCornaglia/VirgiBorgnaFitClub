@@ -23,14 +23,6 @@
       justify-content: center;
    }
 
-   img {
-      border-radius: 30px;
-      aspect-ratio: 6/4;
-      width: 75vw;
-      margin: 10px;
-      box-shadow: 3px 3px 10px black;
-   }
-
    .news-content-text {
       padding: 10px;
       width: 75vw;
@@ -46,7 +38,6 @@
          align-items: center;
          justify-content: center;
 
-         /* TODO: fix view of the following classes */
          .dance,
          .musical-comedy {
             width: 100%;
@@ -116,15 +107,6 @@
 
       .image-container {
          margin-bottom: 20px;
-
-         img {
-            /* min-width: 300px; */
-            width: 40vw;
-            max-height: 530px;
-            margin: 0;
-            max-width: 700px;
-            box-shadow: 3px 3px 10px black;
-         }
       }
 
       .news-content-text {

@@ -1,6 +1,7 @@
-import './index.scss'
-import imgBaile from '../../assets/img/IMG_8559.JPG'
+import './index.scss'/* 
+import imgBaile from '../../assets/img/IMG_8559.JPG' */
 /* import imgComedia from '../../assets/img/CMVB-228.JPG' */
+import Carrusel from '../Carrusel'
 
 const News = () => {
    return (
@@ -12,7 +13,7 @@ const News = () => {
 
             <div className='news-content'>
                <div className='image-container'>
-                  <img src={imgBaile} alt='inscription' />
+                  <Carrusel />
                </div>
 
                <div className='news-content-text'>
