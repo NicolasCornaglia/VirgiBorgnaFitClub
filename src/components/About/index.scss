@@ -18,10 +18,11 @@
       margin: auto;
 
       .about-title {
-         font-weight: bolder;
-         font-size: 22px;
+         /* font-weight: bolder; */
+         /* font-size: 22px; */
          display: flex;
          justify-content: center;
+         letter-spacing: 2px;
 
          /* TODO: title hover animation for all titles */
       }
@@ -30,7 +31,7 @@
 
 @media (min-width: 768px) {
    .about-container {
-      height: 812px;
+      min-height: 812px;
       .header-bg {
          height: 130px;
       }

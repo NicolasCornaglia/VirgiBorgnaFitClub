@@ -2,20 +2,27 @@ import './index.scss'
 import logo from '../../assets/img/VARIACIÓN-LOGO-GENERAL.png'
 import logoMobile from '../../assets/img/VARIACIÓN-LOGo-mobile.png'
 import downArrow from '../../assets/img/down-arrow.svg'
-import {useState} from 'react'
+import { useState } from 'react'
 
 const Header = () => {
-   const [header,setHeader] = useState(false);
+   const [header, setHeader] = useState(false);
 
    const changeBackground = () => {
-      if (window.scrollY>80) {
+      if (window.scrollY > 80) {
          setHeader(true);
       } else {
          setHeader(false);
       }
    }
 
-   window.addEventListener('scroll', changeBackground );
+   const goToBottom = (e) => {
+      e.preventDefault();
+      document.querySelector('.footer').scrollIntoView({ 
+         behavior: 'smooth' 
+      });
+   }
+
+   window.addEventListener('scroll', changeBackground);
 
    return (
       <div>
@@ -34,7 +41,7 @@ const Header = () => {
                   <li><a href='/'>NOVEDADES</a></li>
                   <li><a href='/dance'>BAILE</a></li>
                   <li><a href='/comedy'>COMEDIA MUSICAL</a></li>
-                  <li><a href='/'>CONTACTANOS</a></li>
+                  <li><a href='/' onClick={goToBottom} >CONTACTANOS</a></li>
                   <li><a href='/faq'>PREGUNTAS FRECUENTES</a></li>
                </ul>
             </section>
@@ -55,7 +62,7 @@ const Header = () => {
                         <a href='/comedy' className='navbar-link drop-link'>COMEDIA MUSICAL</a>
                      </div>
                   </div>
-                  <div className='navbar-link'><a href='/'>CONTACTANOS</a></div>
+                  <div className='navbar-link'><a href='/' onClick={goToBottom}>CONTACTANOS</a></div>
                   <div className='navbar-link'><a href='/faq'>PREGUNTAS FRECUENTES</a></div>
                </div>
 

@@ -16,23 +16,22 @@ const News = () => {
                </div>
 
                <div className='news-content-text'>
-                  <h2>INSCRIPCCIONES 2023</h2>
-                  <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten</p>
+                  <div>
+                     <h2>INSCRIPCCIONES 2023</h2>
+                     <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten</p>
+                  </div>
                   <div className='news-links'>
                      <div className='dance'>
-                        <h4>Baile</h4>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform' target="_blank" rel="noopener noreferrer">Kids</a>
+                        <h3>Baile</h3>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids</div></a>
                      </div>
                      <div className='musical-comedy'>
-                        <h4>Comedia Musical</h4>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform' target="_blank" rel="noopener noreferrer">Kids I, II, III (de 4 a 13 años)</a>
-                        <br/>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform' target="_blank" rel="noopener noreferrer">Adolescentes y adultos (de 14 años en adelante)</a>
+                        <h3>Comedia Musical</h3>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids I, II, III <br />(de 4 a 13 años)</div></a>
+                        <br />
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Adolescentes y adultos <br />(de 14 años en adelante)</div></a>
                      </div>
                   </div>
-
-
-
                </div>
             </div>
          </div>

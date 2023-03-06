@@ -1,8 +1,8 @@
 import './index.scss'
 import React from 'react';
-import PropTypes from 'prop-types';
+/* import PropTypes from 'prop-types'; */
 import { useState } from 'react';
-import fitDanceAdultosImg from '../../assets/img/IMG_8551.JPG'
+/* import fitDanceAdultosImg from '../../assets/img/IMG_8551.JPG' */
 import Professor from '../Professor'
 
 

@@ -1,3 +1,90 @@
+.header-bg {
+   height: 104px;
+   background-color: #000000;
+}
+
 .galery-container {
    background-color: #3e3e3e;
+   min-height: 500px;
+
+
+   h1 {
+      margin: 80px 0 0 0 ;
+/*       padding: 20px 0 0 0; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      letter-spacing: 2px;
+   }
+
+   .galery {
+      max-width: 90vw;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+   }
+
+   .comedy,
+   .dance {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+
+      .comedy-title,
+      .dance-title {
+         color: white;
+         margin: 15px ;
+      }
+
+      .comedy-galery,
+      .dance-galery {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+
+         img {
+            margin: 5px 0 2vh 0;
+            width: 40vw;
+            height: 30vw;
+            object-fit: cover;
+            transition: all 0.5s ease-in;
+         }
+
+         img:hover {
+            width: 85vw;
+            height: 65vw;
+            box-shadow: 1px 1px 10px #000;
+         }
+      }
+   }
+}
+
+
+@media (min-width: 768px) {
+   .header-bg {
+      height: 130px;
+      background-color: #000000;
+   }
+
+   .comedy-galery,
+   .dance-galery {
+
+      img {
+         width: 20vw!important;
+         height: 15vw!important; 
+      }
+
+      img:hover {
+         
+         transform: scale(1.5);
+         box-shadow: 1px 1px 10px #000;
+         z-index: 99;
+         transition: all 0.5s ease-in;
+      }
+   }
 }

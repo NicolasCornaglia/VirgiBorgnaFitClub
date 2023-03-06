@@ -53,7 +53,7 @@ const Home = () => {
             {/* <Staff /> */}
             {/* <Galery /> */}
             
-         <footer>
+         <footer className='footer'>
             <Footer />
          </footer>
 
