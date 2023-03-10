@@ -31,15 +31,6 @@ const Dance = () => {
       <>
          <div className='dance-container'>
             <div className='header-bg'></div>
-            {/* <div className='dance-spacing'></div> */}
-{/*             <div className='dance-video'>
-                  <video class="fullscreen" src={danceVideo} playsinline autoPlay muted loop>
-                  </video>
-
-                  <div class="content">
-                     <h1>CLASES DE BAILE</h1>
-                  </div>
-            </div> */}
             <div className='dance-title'>
                <article>
                   <h1>CLASES DE BAILE</h1>

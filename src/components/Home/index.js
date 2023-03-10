@@ -18,7 +18,7 @@ const Home = () => {
                      <h2>BIENVENIDOS</h2>
                      <p>
                         En Virgi Borgna Fit Club buscamos que todos nuestros alumnos sientan que pueden expresarse y diviertirse
-                        en la actividad que mas les guste. Sea bailando o actuadno en comedia musical, priorizamos un buen ambiente
+                        en la actividad que mas les guste. Sea bailando o actuando en comedia musical, priorizamos un buen ambiente
                         en el que todos disfrutemos de las clases.
                      </p>
                   </div>

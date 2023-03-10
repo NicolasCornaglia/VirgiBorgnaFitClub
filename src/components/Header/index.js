@@ -17,9 +17,13 @@ const Header = () => {
 
    const goToBottom = (e) => {
       e.preventDefault();
-      document.querySelector('.footer').scrollIntoView({ 
-         behavior: 'smooth' 
+      document.querySelector('.footer').scrollIntoView({
+         behavior: 'smooth'
       });
+   }
+
+   const doNothing = (e) => {
+      e.preventDefault();
    }
 
    window.addEventListener('scroll', changeBackground);
@@ -38,7 +42,7 @@ const Header = () => {
                <ul class="menu">
                   <li><a href='/'>INICIO</a></li>
                   <li><a href='/about'>QUIENES SOMOS</a></li>
-                  <li><a href='/'>NOVEDADES</a></li>
+                  <li><a href='/galery'>GALERIA</a></li>
                   <li><a href='/dance'>BAILE</a></li>
                   <li><a href='/comedy'>COMEDIA MUSICAL</a></li>
                   <li><a href='/' onClick={goToBottom} >CONTACTANOS</a></li>
@@ -54,9 +58,9 @@ const Header = () => {
                <div className='nav-bar'>
                   <div className='navbar-link'><a href='/'>INICIO</a></div>
                   <div className='navbar-link'><a href='/about'>QUIENES SOMOS</a></div>
-                  <div className='navbar-link'><a href='/'>NOVEDADES</a></div>
+                  <div className='navbar-link'><a href='/galery'>GALERIA</a></div>
                   <div className='navbar-link dropdown'>
-                     <a href='/' className='dropbtn'>CLASES <img src={downArrow} alt='downarrow' className='down-arrow' /></a>
+                     <a href='/' className='dropbtn'onClick={doNothing}>CLASES <img src={downArrow} alt='downarrow' className='down-arrow' /></a>
                      <div className='dropdown-content'>
                         <a href='/dance' className='navbar-link drop-link'>BAILE</a>
                         <a href='/comedy' className='navbar-link drop-link'>COMEDIA MUSICAL</a>

@@ -7,6 +7,10 @@ const Comedy = () => {
       <>
          <div className='comedy-container'>
             <div className='header-bg'></div>
+            <div className='banner'>
+               <p>Banner</p>
+            </div>
+            
             <div className='comedy-spacing'></div>
             <div className='comedy-title'>
                <article>

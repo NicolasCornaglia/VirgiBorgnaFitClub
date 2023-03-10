@@ -8,14 +8,14 @@
    min-height: 500px;
 
 
-   h1 {
-      margin: 80px 0 0 0 ;
-/*       padding: 20px 0 0 0; */
+   h2 {
+      margin: 30px;
       display: flex;
       justify-content: center;
       align-items: center;
       color: #fff;
       letter-spacing: 2px;
+      font-size: 24px;
    }
 
    .galery {
@@ -25,7 +25,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 30px;
    }
 
    .comedy,
@@ -37,15 +36,15 @@
 
       .comedy-title,
       .dance-title {
+         width: 100%;
          color: white;
-         margin: 15px ;
       }
 
       .comedy-galery,
       .dance-galery {
          display: flex;
          flex-wrap: wrap;
-         justify-content: space-around;
+         justify-content: space-evenly;
 
          img {
             margin: 5px 0 2vh 0;
@@ -71,6 +70,12 @@
       background-color: #000000;
    }
 
+   .galery-container {
+      h2 {
+         font-size: 37.5px;
+      }
+   }
+
    .comedy-galery,
    .dance-galery {
 
@@ -87,4 +92,6 @@
          transition: all 0.5s ease-in;
       }
    }
+
+  
 }

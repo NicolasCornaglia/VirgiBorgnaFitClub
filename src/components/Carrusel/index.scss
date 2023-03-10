@@ -6,7 +6,6 @@
     animation: mymove 5s infinite ease-in;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 @keyframes mymove {
@@ -20,9 +19,16 @@
 @media (min-width: 768px) {
     .img-changer {
         object-position: 50% 50%;
-        width: 40vw;
+        width: 75vw;
         max-height: 530px;
         margin: 0;
         max-width: 700px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .img-changer {
+        min-height: 400px;
+        width: 40vw;
     }
 }
