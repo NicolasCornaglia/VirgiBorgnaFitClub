@@ -2,12 +2,11 @@ import './index.scss'
 import Footer from '../Footer'
 import Activity from '../Activity'
 import fitDanceAdultosImg from '../../assets/img/IMG_8551.JPG'
-/* import danceVideo from '../../assets/videos/Video-BAILE.MP4' */
 
 const Dance = () => {
    let classImage = fitDanceAdultosImg;
    let titulo = 'Titulo de la clase';
-   let description = 'Titulo de la claseTitulo de la claseTitulo de la claseTitulo de la claseTitulo de la clase';
+   let description = 'Fit Dance conjuga entrenamiento y danza, convirtiéndola en una actividad aeróbica, divertida y placentera, utilizando el baile como eje motivador. Se destaca el trabajo con coreografías ideadas y pensadas en relación a la forma musical que acompaña el ejercicio y el movimiento, utilizando determinados músculos y posturas corporales. Durante la clase, se suceden distintas intensidades de trabajo que generan cambios en la frecuencia cardíaca.';
    let professorsInfo1 = [
       {
          name: "eusebio perez1",

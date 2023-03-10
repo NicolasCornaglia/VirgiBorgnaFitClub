@@ -31,15 +31,15 @@ const Header = () => {
    return (
       <div>
          <div className={`header-container-mobile sticky ${header ? 'active' : ''}`}>
-            <section class="top-nav">
+            <section className="top-nav">
                <div className='logo-container'>
                   <img src={logoMobile} alt='logo-mobile' className='logo-mobile' />
                </div>
                <input id="menu-toggle" type="checkbox" />
-               <label class='menu-button-container' for="menu-toggle">
-                  <div class='menu-button'></div>
+               <label className='menu-button-container' for="menu-toggle">
+                  <div className='menu-button'></div>
                </label>
-               <ul class="menu">
+               <ul className="menu">
                   <li><a href='/'>INICIO</a></li>
                   <li><a href='/about'>QUIENES SOMOS</a></li>
                   <li><a href='/galery'>GALERIA</a></li>

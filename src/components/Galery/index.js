@@ -4,7 +4,6 @@ import Footer from '../Footer'
 
 const Galery = () => {
 
-
    return (
       <>
          <div className='header-bg'></div>
@@ -14,6 +13,7 @@ const Galery = () => {
                   <div className='dance-title'><h2>BAILE</h2></div>
 
                   <div className='dance-galery'>
+                     {/*<img src={randomPic} alt='pic' />
                      <img src={randomPic} alt='pic' />
                      <img src={randomPic} alt='pic' />
                      <img src={randomPic} alt='pic' />
@@ -22,10 +22,7 @@ const Galery = () => {
                      <img src={randomPic} alt='pic' />
                      <img src={randomPic} alt='pic' />
                      <img src={randomPic} alt='pic' />
-                     <img src={randomPic} alt='pic' />
-                     <img src={randomPic} alt='pic' />
-                     <img src={randomPic} alt='pic' />
-                     <img src={randomPic} alt='pic' />
+                     <img src={randomPic} alt='pic' /> */}
                   </div>
 
                </div>
