@@ -1,30 +1,181 @@
 import './index.scss'
 import Footer from '../Footer'
 import Activity from '../Activity'
-import fitDanceAdultosImg from '../../assets/img/IMG_8551.JPG'
+import fitDanceAdultosImg from '../../assets/img/dance/IMG_8569.JPG'
+import fitDanceKidsIImg from '../../assets/img/dance/IMG_8020_jpg.JPG'
+import fitDanceKidsIIImg from '../../assets/img/dance/IMG_1696.JPG'
+import fitDanceKidsTeensImg from '../../assets/img/dance/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg'
+import fitDanceStreetBImg from '../../assets/img/dance/IMG_1603.JPG'
+import fitDanceStreetAImg from '../../assets/img/dance/IMG_1658.JPG'
+import fitDanceStreetTeensImg from '../../assets/img/dance/IMG_1606.JPG'
+import fitDanceSalsaImg from '../../assets/img/dance/IMG_0382.JPG'
+import fitDanceBachataImg from '../../assets/img/dance/IMG_8719.JPG'
 
 const Dance = () => {
-   let classImage = fitDanceAdultosImg;
-   let titulo = 'Titulo de la clase';
-   let description = 'Fit Dance conjuga entrenamiento y danza, convirtiéndola en una actividad aeróbica, divertida y placentera, utilizando el baile como eje motivador. Se destaca el trabajo con coreografías ideadas y pensadas en relación a la forma musical que acompaña el ejercicio y el movimiento, utilizando determinados músculos y posturas corporales. Durante la clase, se suceden distintas intensidades de trabajo que generan cambios en la frecuencia cardíaca.';
-   let professorsInfo1 = [
-      {
-         name: "eusebio perez1",
-         img: fitDanceAdultosImg
-      },
-      {
-         name: "eusebio perez2",
-         img: fitDanceAdultosImg
-      },
-      {
-         name: "eusebio perez3",
-         img: fitDanceAdultosImg
-      },
-      {
-         name: "eusebio perez4",
-         img: fitDanceAdultosImg
-      },
-   ];
+
+   const class1 = {
+      image: fitDanceAdultosImg,
+      title: 'Fit Dance adultos',
+      desc: 'Fit Dance conjuga entrenamiento y danza, convirtiéndola en una actividad aeróbica, divertida y placentera, utilizando el baile como eje motivador. Se destaca el trabajo con coreografías ideadas y pensadas en relación a la forma musical que acompaña el ejercicio y el movimiento, utilizando determinados músculos y posturas corporales. Durante la clase, se suceden distintas intensidades de trabajo que generan cambios en la frecuencia cardíaca.',
+      prof: [
+         {
+            name: "Virginia Borgna",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: '14 años en adelante',
+         dateTime: 'Lunes y miércoles 8h | 19:30h / Martes y jueves 13:15h | 19:30h',
+         duration: '1H',
+         wpp: '5493492289969'
+      }
+   }
+   
+   const class2 = {
+      image: fitDanceKidsIImg,
+      title: 'Fit Dance kids I',
+      desc: 'Fit Dance conjuga entrenamiento y danza, convirtiéndola en una actividad aeróbica, divertida y placentera, utilizando el baile como eje motivador. Se destaca el trabajo con coreografías ideadas y pensadas en relación a la forma musical que acompaña el ejercicio y el movimiento, utilizando determinados músculos y posturas corporales. Durante la clase, se suceden distintas intensidades de trabajo que generan cambios en la frecuencia cardíaca.',
+      prof: [
+         {
+            name: "Sofía Petrucci",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: 'de 4 a 6 años',
+         dateTime: 'Consultar',
+         duration: '1H',
+         wpp: '5493492289969'
+      }
+   }
+
+   const class3 = {
+      image: fitDanceKidsIIImg,
+      title: 'Fit Dance kids II',
+      desc: 'Fit Dance conjuga entrenamiento y danza, convirtiéndola en una actividad aeróbica, divertida y placentera, utilizando el baile como eje motivador. Se destaca el trabajo con coreografías ideadas y pensadas en relación a la forma musical que acompaña el ejercicio y el movimiento, utilizando determinados músculos y posturas corporales. Durante la clase, se suceden distintas intensidades de trabajo que generan cambios en la frecuencia cardíaca.',
+      prof: [
+         {
+            name: "Sofía Petrucci",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: 'de 7 a 11 años',
+         dateTime: 'Consultar',
+         duration: '1H',
+         wpp: '5493492289969'
+      }
+   }
+
+   const class4 = {
+      image: fitDanceKidsTeensImg,
+      title: 'Fit Dance teens',
+      desc: 'Fit Dance conjuga entrenamiento y danza, convirtiéndola en una actividad aeróbica, divertida y placentera, utilizando el baile como eje motivador. Se destaca el trabajo con coreografías ideadas y pensadas en relación a la forma musical que acompaña el ejercicio y el movimiento, utilizando determinados músculos y posturas corporales. Durante la clase, se suceden distintas intensidades de trabajo que generan cambios en la frecuencia cardíaca.',
+      prof: [
+         {
+            name: "Sofía Petrucci",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: 'a partir de los 12 años',
+         dateTime: 'Consultar',
+         duration: '1H',
+         wpp: '5493492289969'
+      }
+   }
+
+   const class5 = {
+      image: fitDanceStreetBImg,
+      title: 'Street nivel básico - principiante',
+      desc: 'Street Dance es una actividad en la que se aprende y entrena diversas coreografías fusionando diferentes lenguajes y estilos, entre ellos hip hop, dancehall, reggaetón (fusión), jazz funk, tutting, femme, entre otros; comprendiendo tanto movimientos libres y fluidos como lineales y técnicos. A través de ejercicios técnicos entrenamos la disociación, memorización y control del cuerpo. Las coreografías se preparan en base al nivel de los grupos y tiene como objetivo aprender, superarse, divertirse y compartir.',
+      prof: [
+         {
+            name: "Natalia Reynaudo",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         dateTime: 'Consultar',
+         duration: '1h 30min',
+         wpp: '5493401416919'
+      }
+   }
+
+   const class6 = {
+      image: fitDanceStreetAImg,
+      title: `Street nivel principiante - avanzado`,
+      desc: 'Street Dance es una actividad en la que se aprende y entrena diversas coreografías fusionando diferentes lenguajes y estilos, entre ellos hip hop, dancehall, reggaetón (fusión), jazz funk, tutting, femme, entre otros; comprendiendo tanto movimientos libres y fluidos como lineales y técnicos. A través de ejercicios técnicos entrenamos la disociación, memorización y control del cuerpo. Las coreografías se preparan en base al nivel de los grupos y tiene como objetivo aprender, superarse, divertirse y compartir.',
+      prof: [
+         {
+            name: "Natalia Reynaudo",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         dateTime: 'Martes y jueves 20:30h',
+         duration: '1h',
+         wpp: '5493401416919'
+      }
+   }
+
+   const class7 = {
+      image: fitDanceStreetTeensImg,
+      title: 'Street teens',
+      desc: 'Street Dance es una actividad en la que se aprende y entrena diversas coreografías fusionando diferentes lenguajes y estilos, entre ellos hip hop, dancehall, reggaetón (fusión), jazz funk, tutting, femme, entre otros; comprendiendo tanto movimientos libres y fluidos como lineales y técnicos. A través de ejercicios técnicos entrenamos la disociación, memorización y control del cuerpo. Las coreografías se preparan en base al nivel de los grupos y tiene como objetivo aprender, superarse, divertirse y compartir.',
+      prof: [
+         {
+            name: "Natalia Reynaudo",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: 'a partir de los 12 años',
+         dateTime: 'Martes y jueves 16h',
+         duration: '1h',
+         wpp: '5493401416919'
+      }
+   }
+
+   const class8 = {
+      image: fitDanceSalsaImg,
+      title: 'Salsa en pareja',
+      desc: 'Tanto en bachata como en salsa se trabaja en pareja e individualmente. Las clases son muy dinámicas, se aprende la técnica individual y básica de cada ritmo. No es necesario venir con pareja.',
+      prof: [
+         {
+            name: "Edgar Weber",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         dateTime: ' Lunes 21:30h',
+         duration: '1h',
+         wpp: '5493492595321'
+      }
+   }
+
+   const class9 = {
+      image: fitDanceBachataImg,
+      title: 'Bachata',
+      desc: 'Tanto en bachata como en salsa se trabaja en pareja e individualmente. Las clases son muy dinámicas, se aprende la técnica individual y básica de cada ritmo. No es necesario venir con pareja.',
+      prof: [
+         {
+            name: "Bruno Acosta",
+            img: fitDanceAdultosImg
+         }
+      ],
+      charac: {
+         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         dateTime: 'Miércoles 21:30h',
+         duration: '1h',
+         wpp: '5493492565355'
+      }
+   }
+
+   const classes = [ class1, class2, class3, class4, class5, class6, class7, class8, class9 ];
 
    return (
       <>
@@ -37,12 +188,19 @@ const Dance = () => {
             </div>
             <div className='dance-content'>
                <div className='cards-container'>
-                  <Activity classImg={classImage} classTitle={titulo} classDescription={description} professors={professorsInfo1} />
-                  <Activity classImg={classImage} classTitle={titulo} classDescription={description} professors={professorsInfo1} />
-                  <Activity classImg={classImage} classTitle={titulo} classDescription={description} professors={professorsInfo1} />
-                  <Activity classImg={classImage} classTitle={titulo} classDescription={description} professors={professorsInfo1} />
-                  <Activity classImg={classImage} classTitle={titulo} classDescription={description} professors={professorsInfo1} />
-                  <Activity classImg={classImage} classTitle={titulo} classDescription={description} professors={professorsInfo1} />
+                  {classes.map((element,i) => 
+                     <Activity
+                        classImg={element.image}
+                        classTitle={element.title}
+                        classDescription={element.desc}
+                        professors={element.prof}
+                        ages={element.charac.ages}
+                        dateTime={element.charac.dateTime}
+                        duration={element.charac.duration}
+                        wpp={element.charac.wpp}
+                        key={`${element.wpp}_${i}`}
+                     />
+                  )}
                </div>
 
             </div>
