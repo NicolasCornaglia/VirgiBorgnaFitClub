@@ -17,10 +17,12 @@
       cursor: pointer;
 
       img {
+         filter: blur(2px);
          object-fit: cover;
          width: 100%;
          height: 100%;
          border-radius: 30px;
+         transition: all 0.3s ease-in;
       }
 
       .class-title {
@@ -37,12 +39,21 @@
          justify-content: center;
          align-items: center;
          color: #FFF;
-         /* #ff0861 */
          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
          visibility: visible;
          opacity: 1;
          transition: all 300ms ease-in-out;
       }
+   }
+
+   .card-img:hover img {
+      filter: blur(0px)!important;
+   }
+
+   .card-img:hover .class-title{
+      translate: 0px 40px;
+      opacity: 0;
+      
    }
 
    .card-content {
@@ -58,7 +69,7 @@
       transition: visibility 0.5s linear, opacity 0.5s linear;
 
       .card-title {
-         font-size: 25px;
+         font-size: 21px;
          font-weight: bold;
          letter-spacing: 2px;
          transition: all 0.3s linear;
@@ -186,13 +197,17 @@
          margin-left: 0px;
       }
 
-      .card-img img {
-         filter: blur(0px);
-         transition: .3s ease-in-out;
+      .bigger-img {
+         height: 40vh!important;
+         img {
+            height: 40vh;
+         }
+         
       }
 
       .card-img:hover img {
-         filter: blur(3px);
+         filter: blur(0px);
+         
       }
 
       .card-img:hover .class-title {
@@ -202,7 +217,7 @@
       .card-img {
          width: 70vw;
          height: 15vw;
-
+         
          .class-title {
             width: 70vw;
             height: 15vw;
@@ -292,7 +307,6 @@
    }
 
    .prof-char {
-      /* min-height: 250px; */
       width: 100%;
       margin-top: 20px;
       display: flex;
@@ -303,16 +317,15 @@
          display: flex;
          flex-direction: column;
          max-width: 50%;
-         /*  min-height: 250px; */
       }
    }
 }
 
 @media (min-width: 1500px) {
-
+   .card-description {
+      width: 100%;
+   }
    .card .card-characteristics .card-characteristics-columns {
       display: flex;
    }
-
-
 }

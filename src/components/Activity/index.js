@@ -16,7 +16,7 @@ function Activity(props) {
       <>
          <div className='card' key={props.key}>
             <div className='card-bg'>
-               <div onClick={toggleClass} className='card-img'>
+               <div onClick={toggleClass} className={isActive ? 'card-img bigger-img' : 'card-img'}>
                   <img src={props.classImg} alt='Img' />
                   <p className='class-title'>{props.classTitle}</p>
                </div>
