@@ -1,7 +1,7 @@
 .img-changer {
     border-radius: 30px;
     aspect-ratio: 6/4;
-    width: 75vw;
+    width: 80vw;
     position: relative;
     animation: mymove 25s infinite ease-in-out;
     background-size: cover;
@@ -9,27 +9,27 @@
 }
 
 @keyframes mymove {
-    0%   {object-fit: fill; opacity: 1;background-image: url(../../assets/img/comedy/632.JPG) }
-    5%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_8764.JPG) }
-    10%  {object-fit: fill; opacity: 1; background-image: url(../../assets/img/dance/IMG_8764.JPG) }
-    15%  {object-fit: fill; opacity: 1; background-image: url(../../assets/img/CM-VB-228.JPG)}
-    20%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/CM-VB-228.JPG) }
-    25%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/CM-VB-727.JPG) }
-    30%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/CM-VB-727.JPG) }
-    35%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg) }
-    40%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg) }
-    45%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_0382.JPG) }
-    50%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_0382.JPG) }
-    55%   {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_8551.JPG)   }
-    60%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_8551.JPG) }
-    65%  {object-fit: fill; opacity: 1; background-image: url(../../assets/img/dance/IMG_0329.JPG) }
-    70%  {object-fit: fill; opacity: 1; background-image: url(../../assets/img/dance/IMG_0329.JPG)}
-    75%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_0346.JPG) }
-    80%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/dance/IMG_0346.JPG) }
-    85%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/comedy/358.JPG) }
-    90%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/comedy/358.JPG) }
-    95%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/comedy/632.JPG) }
-    100%  {object-fit: fill; opacity: 1;background-image: url(../../assets/img/comedy/632.JPG) }
+    0%   {object-fit: fill; background-image: url(../../assets/img/comedy/632.JPG) }
+    5%  {object-fit: fill; background-image: url(../../assets/img/dance/IMG_8764.JPG) }
+    10%  {object-fit: fill;  background-image: url(../../assets/img/dance/IMG_8764.JPG) }
+    15%  {object-fit: fill;  background-image: url(../../assets/img/CM-VB-228.JPG)}
+    20%  {object-fit: fill; background-image: url(../../assets/img/CM-VB-228.JPG) }
+    25%  {object-fit: fill; background-image: url(../../assets/img/CM-VB-727.JPG) }
+    30%  {object-fit: fill; background-image: url(../../assets/img/CM-VB-727.JPG) }
+    35%  {object-fit: fill; background-image: url(../../assets/img/dance/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg) }
+    40%  {object-fit: fill; background-image: url(../../assets/img/dance/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg) }
+    45%  {object-fit: fill; background-image: url(../../assets/img/dance/IMG_0382.JPG) }
+    50%  {object-fit: fill; background-image: url(../../assets/img/dance/IMG_0382.JPG) }
+    55%   {object-fit: fill; background-image: url(../../assets/img/dance/IMG_8551.JPG)   }
+    60%  {object-fit: fill; background-image: url(../../assets/img/dance/IMG_8551.JPG) }
+    65%  {object-fit: fill;  background-image: url(../../assets/img/dance/IMG_0329.JPG) }
+    70%  {object-fit: fill;  background-image: url(../../assets/img/dance/IMG_0329.JPG)}
+    75%  {object-fit: fill; background-image: url(../../assets/img/dance/IMG_0346.JPG) }
+    80%  {object-fit: fill; background-image: url(../../assets/img/dance/IMG_0346.JPG) }
+    85%  {object-fit: fill; background-image: url(../../assets/img/comedy/358.JPG) }
+    90%  {object-fit: fill; background-image: url(../../assets/img/comedy/358.JPG) }
+    95%  {object-fit: fill; background-image: url(../../assets/img/comedy/632.JPG) }
+    100%  {object-fit: fill; background-image: url(../../assets/img/comedy/632.JPG) }
 }
 
 @media (min-width: 768px) {

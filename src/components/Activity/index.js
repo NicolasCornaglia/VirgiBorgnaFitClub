@@ -2,7 +2,7 @@ import './index.scss'
 import React from 'react';
 import { useState } from 'react';
 import Professor from '../Professor'
-
+import professorDefault from '../../assets/img/professorDefault.jpg'
 
 function Activity(props) {
    let profArr = props.professors;
@@ -35,7 +35,7 @@ function Activity(props) {
                      <div className='professors-container'>
                         <span className='card-subtitle '>Profesores:</span>
                         <div className='professors'>
-                           {profArr.map((prof, i) => (<Professor name={prof.name} img={prof.img} key={`${prof.name}_${i}`} />))}
+                           {profArr.map((prof, i) => (<Professor name={prof.name} /* img={prof.img} when we have the photos of the professors, this must be changed */ img={professorDefault} key={`${prof.name}_${i}`} />))}
                         </div>
                      </div>
                      <div className='card-characteristics'>

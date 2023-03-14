@@ -19,7 +19,7 @@ const News = () => {
                <div className='news-content-text'>
                   <div>
                      <h2>INSCRIPCCIONES 2023</h2>
-                     <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten</p>
+                     <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten.</p>
                   </div>
                   <div className='news-links'>
                      <div className='dance'>
