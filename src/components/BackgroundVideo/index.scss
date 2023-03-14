@@ -1,43 +1,64 @@
 #background-video {
-   width: 100vw;
-   height: 53vh;
-   object-fit: cover;
-   position: fixed;
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
-   z-index: -1;
- }
+  width: 100vw;
+  height: 53vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
 
- .video-button {
-  color: rgba(#fff,0.4);
+.video-button {
+  color: rgba(#fff, 0.4);
   font-weight: bolder;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   top: 20vh;
-  background-color: rgba(#ff0861,0.4);
+  background-color: rgba(#ff0861, 0.4);
   border-radius: 35px;
   width: 200px;
-  margin:auto;
+  margin: auto;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 1.0);
- }
- .video-button:hover {
-  background-color: rgba(#ff0861,0.8);
-  color: rgba(#fff,1);
-  transition: 500ms ease-in;
- }
+}
 
- @media (min-width: 768px) {
+.video {
+  display: none;
+}
+
+.video-button:hover {
+  background-color: rgba(#ff0861, 0.8);
+  color: rgba(#fff, 1);
+  transition: 500ms ease-in;
+}
+
+.header-bg {
+  display: flex;
+  height: 104px;
+  background-color: #000000;
+}
+
+
+@media (min-width: 768px) {
+  #background-video {
+    display: block;
+    height: 53vh;
+  }
+
+  .video {
+    display: block;
+  }
+
   .video-button {
-    display: none
+    display: none;
   }
 
   #background-video {
     object-position: 50% 65%;
   }
 
- }
+}
