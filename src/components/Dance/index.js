@@ -42,7 +42,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: 'de 4 a 6 años',
+         ages: 'De 4 a 6 años',
          dateTime: 'Consultar',
          duration: '1H',
          wpp: '5493492289969'
@@ -60,7 +60,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: 'de 7 a 11 años',
+         ages: 'De 7 a 11 años',
          dateTime: 'Consultar',
          duration: '1H',
          wpp: '5493492289969'
@@ -78,7 +78,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: 'a partir de los 12 años',
+         ages: 'A partir de los 12 años',
          dateTime: 'Consultar',
          duration: '1H',
          wpp: '5493492289969'
@@ -96,7 +96,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         ages: 'Sin limite',
          dateTime: 'Consultar',
          duration: '1h 30min',
          wpp: '5493401416919'
@@ -114,7 +114,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         ages: 'Sin limite',
          dateTime: 'Martes y jueves 20:30h',
          duration: '1h',
          wpp: '5493401416919'
@@ -132,7 +132,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: 'a partir de los 12 años',
+         ages: 'A partir de los 12 años',
          dateTime: 'Martes y jueves 16h',
          duration: '1h',
          wpp: '5493401416919'
@@ -150,8 +150,8 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
-         dateTime: ' Lunes 21:30h',
+         ages: 'Sin limite',
+         dateTime: 'Lunes 21:30h',
          duration: '1h',
          wpp: '5493492595321'
       }
@@ -168,7 +168,7 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: '!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!',
+         ages: 'Sin limite',
          dateTime: 'Miércoles 21:30h',
          duration: '1h',
          wpp: '5493492565355'

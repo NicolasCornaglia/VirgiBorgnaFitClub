@@ -26,21 +26,21 @@ const Home = () => {
 
                <div className='welcome-images'>
                   <div className='img-wrapper'>
-                     <a href='/'>
+                     <a href='/dance'>
                         <img src={imgBaile1} alt='welcome-picture1' className='welcome-image' />
                         <div className='img-text'><p>BAILE</p></div>
                      </a>
                   </div>
 
                   <div className='img-wrapper'>
-                     <a href='/'>
+                     <a href='/comedy'>
                         <img src={imgCM1} alt='welcome-picture2' className='welcome-image' />
                         <div className='img-text'><p>COMEDIA<br />MUSICAL</p></div>
                      </a>
                   </div>
 
                   <div className='img-wrapper'>
-                     <a href='/'>
+                     <a href='/about'>
                         <img src={imgBaile2} alt='welcome-picture3' className='welcome-image' />
                         <div className='img-text'><p>QUIENES<br />SOMOS</p></div>
                      </a>
@@ -49,8 +49,6 @@ const Home = () => {
             </div>
 
             <News />
-            {/* <Staff /> */}
-            {/* <Galery /> */}
 
             <footer className='footer'>
                <Footer />
