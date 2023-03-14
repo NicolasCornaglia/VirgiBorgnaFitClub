@@ -82,15 +82,12 @@
       img {
          width: 20vw!important;
          height: 15vw!important; 
+         cursor: pointer;
       }
+   }
 
-      img:hover {
-         
-         transform: scale(1.5);
-         box-shadow: 1px 1px 10px #000;
-         z-index: 99;
-         transition: all 0.5s ease-in;
-      }
+   .comedy-title{
+      margin-top: 50px;
    }
 
   
