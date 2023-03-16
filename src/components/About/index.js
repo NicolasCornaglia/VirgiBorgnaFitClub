@@ -23,7 +23,7 @@ const About = () => {
                </div>
 
                <div className='img-about'>
-                  <img src={imgAbout} alt='img about' />
+                  <img src={imgAbout} alt='img about' loading='lazy'/>
                </div>
             </div>
          </div>

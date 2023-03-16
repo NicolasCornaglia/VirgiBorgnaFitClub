@@ -8,7 +8,7 @@ const Professor = (props) => {
    return (
       <div className='professor' key={`${props.name}`}>
          <a href='/' onClick={doNothing}>
-            <img src={props.img} alt='professor-img' className='professor-img' />
+            <img src={props.img} alt='professor-img' className='professor-img' loading='lazy'/>
             <div className='professor-name'>
                <div>{props.name}</div>
             </div>

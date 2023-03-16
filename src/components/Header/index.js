@@ -26,6 +26,10 @@ const Header = () => {
       e.preventDefault();
    }
 
+   const goToHome = () => {
+      window.location.href='/'
+   }
+
    window.addEventListener('scroll', changeBackground);
 
    return (
@@ -33,7 +37,7 @@ const Header = () => {
          <div className={`header-container-mobile sticky ${header ? 'active' : ''}`}>
             <section className="top-nav">
                <div className='logo-container'>
-                  <img src={logoMobile} alt='logo-mobile' className='logo-mobile' />
+                  <img src={logoMobile} alt='logo-mobile' className='logo-mobile' onClick={goToHome} />
                </div>
                <input id="menu-toggle" type="checkbox" />
                <label className='menu-button-container' for="menu-toggle">
@@ -71,7 +75,7 @@ const Header = () => {
                </div>
 
                <div className='logo-container'>
-                  <img src={logo} alt='logo' className='logo' />
+                  <img src={logo} alt='logo' className='logo' onClick={goToHome} />
                </div>
 
             </div>
