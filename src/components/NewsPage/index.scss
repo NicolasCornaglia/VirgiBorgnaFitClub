@@ -1,0 +1,11 @@
+.header-bg {
+   height: 104px;
+   background-color: #000000;
+}
+
+@media (min-width: 768px) {
+   .header-bg {
+      height: 130px;
+      background-color: #000000;
+   }
+}

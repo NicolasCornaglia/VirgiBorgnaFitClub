@@ -18,19 +18,21 @@ const News = () => {
 
                <div className='news-content-text'>
                   <div>
-                     <h2>INSCRIPCCIONES 2023</h2>
+                     <h2>INSCRIPCIONES</h2>
                      <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten.</p>
                   </div>
                   <div className='news-links'>
                      <div className='dance'>
                         <h3>Baile</h3>
                         <a href='https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids</div></a>
+                        <br />
+                        <a href='https://forms.gle/URV5xvmTBLdcGzyJ9' target="_blank" rel="noopener noreferrer"><div className='btn'>Teens</div></a>
                      </div>
                      <div className='musical-comedy'>
                         <h3>Comedia Musical</h3>
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids I, II, III <br />(de 4 a 13 años)</div></a>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids I, II, III </div></a>
                         <br />
-                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Adolescentes y adultos <br />(de 14 años en adelante)</div></a>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Adolescentes y adultos </div></a>
                      </div>
                   </div>
                </div>

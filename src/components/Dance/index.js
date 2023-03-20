@@ -1,15 +1,15 @@
 import './index.scss'
 import Footer from '../Footer'
 import Activity from '../Activity'
-import fitDanceAdultosImg from '../../assets/img/dance/IMG_8569.JPG'
-import fitDanceKidsIImg from '../../assets/img/dance/IMG_8020_jpg.JPG'
-import fitDanceKidsIIImg from '../../assets/img/dance/IMG_1696.JPG'
-import fitDanceKidsTeensImg from '../../assets/img/dance/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg'
-import fitDanceStreetBImg from '../../assets/img/dance/IMG_1603.JPG'
-import fitDanceStreetAImg from '../../assets/img/dance/IMG_1658.JPG'
-import fitDanceStreetTeensImg from '../../assets/img/dance/IMG_1606.JPG'
-import fitDanceSalsaImg from '../../assets/img/dance/IMG_0382.JPG'
-import fitDanceBachataImg from '../../assets/img/dance/IMG_8719.JPG'
+import fitDanceAdultosImg from '../../assets/img/dance_optimized/IMG_8569.JPG'
+import fitDanceKidsIImg from '../../assets/img/dance_optimized/IMG_8020.JPG'
+import fitDanceKidsIIImg from '../../assets/img/dance_optimized/IMG_1696.JPG'
+import fitDanceKidsTeensImg from '../../assets/img/dance_optimized/c40d4905-405c-4cc3-9494-c1ea99db3f10.jpg'
+import fitDanceStreetBImg from '../../assets/img/dance_optimized/IMG_1603.JPG'
+import fitDanceStreetAImg from '../../assets/img/dance_optimized/IMG_1553.JPG'
+import fitDanceStreetTeensImg from '../../assets/img/dance_optimized/IMG_1606.JPG'
+import fitDanceSalsaImg from '../../assets/img/IMG_0382.JPG'
+import fitDanceBachataImg from '../../assets/img/dance_optimized/IMG_8719.JPG'
 
 const Dance = () => {
 
@@ -24,11 +24,12 @@ const Dance = () => {
          }
       ],
       charac: {
-         ages: '14 años en adelante',
+         ages: '17 años en adelante',
          dateTime: 'Lunes y miércoles 8h | 19:30h / Martes y jueves 13:15h | 19:30h',
          duration: '1H',
          wpp: '5493492289969'
-      }
+      },
+      enroll: ''
    }
    
    const class2 = {
@@ -46,7 +47,8 @@ const Dance = () => {
          dateTime: 'Consultar',
          duration: '1H',
          wpp: '5493492289969'
-      }
+      },
+      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform'
    }
 
    const class3 = {
@@ -64,7 +66,8 @@ const Dance = () => {
          dateTime: 'Consultar',
          duration: '1H',
          wpp: '5493492289969'
-      }
+      },
+      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform'
    }
 
    const class4 = {
@@ -82,7 +85,8 @@ const Dance = () => {
          dateTime: 'Consultar',
          duration: '1H',
          wpp: '5493492289969'
-      }
+      },
+      enroll: 'https://forms.gle/URV5xvmTBLdcGzyJ9'
    }
 
    const class5 = {
@@ -100,7 +104,8 @@ const Dance = () => {
          dateTime: 'Consultar',
          duration: '1h 30min',
          wpp: '5493401416919'
-      }
+      },
+      enroll: ''
    }
 
    const class6 = {
@@ -118,7 +123,8 @@ const Dance = () => {
          dateTime: 'Martes y jueves 20:30h',
          duration: '1h',
          wpp: '5493401416919'
-      }
+      },
+      enroll: ''
    }
 
    const class7 = {
@@ -136,7 +142,8 @@ const Dance = () => {
          dateTime: 'Martes y jueves 16h',
          duration: '1h',
          wpp: '5493401416919'
-      }
+      },
+      enroll: ''
    }
 
    const class8 = {
@@ -154,7 +161,8 @@ const Dance = () => {
          dateTime: 'Lunes 21:30h',
          duration: '1h',
          wpp: '5493492595321'
-      }
+      },
+      enroll: ''
    }
 
    const class9 = {
@@ -172,7 +180,8 @@ const Dance = () => {
          dateTime: 'Miércoles 21:30h',
          duration: '1h',
          wpp: '5493492565355'
-      }
+      },
+      enroll: ''
    }
 
    const classes = [ class1, class2, class3, class4, class5, class6, class7, class8, class9 ];
@@ -198,6 +207,7 @@ const Dance = () => {
                         dateTime={element.charac.dateTime}
                         duration={element.charac.duration}
                         wpp={element.charac.wpp}
+                        enroll={element.enroll}
                         key={`${element.wpp}_${i}`}
                      />
                   )}
