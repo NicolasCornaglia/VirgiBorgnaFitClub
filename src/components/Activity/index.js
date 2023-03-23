@@ -19,7 +19,6 @@ function Activity(props) {
                <div onClick={toggleClass} className={isActive ? 'card-img bigger-img' : 'card-img'}>
                   <img src={props.classImg} alt='Img' loading='lazy' />
                   <p className='class-title'>{props.classTitle}</p>
-                  {/* <div className='discount'><img src={props.classImg} alt='Img' loading='lazy' /></div> */}
                </div>
                <div className={isActive ? 'card-content show-content' : 'card-content'} >
                   <div className='card-title'>
@@ -29,7 +28,7 @@ function Activity(props) {
                   <div className='card-description'>
                      <span className='card-subtitle '>Descripcción:</span>
                      <div className='card-summary'>
-                        {props.classDescription}
+                        <p>{props.classDescription}</p>
                      </div>
                   </div>
                   <div className='prof-char'>
