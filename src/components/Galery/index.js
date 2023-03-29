@@ -1,11 +1,12 @@
-import './index.scss'
-import Footer from '../Footer'
+import React from 'react';
+import './index.scss';
+import Footer from '../Footer';
 
 const Galery = () => {
 
    function importAll(r) {
       return r.keys().map(r);
-   }
+   };
 
    const imagesDance = importAll(require.context('../../assets/img/dance', false, /\.(png|jpe?g|svg|JPG|jpg)$/));
    const imagesComedy = importAll(require.context('../../assets/img/comedy', false, /\.(png|jpe?g|svg|JPG|jpg)$/));
@@ -14,7 +15,7 @@ const Galery = () => {
       if (window.innerWidth < 768) {
          e.preventDefault();
       }
-   }
+   };
 
    return (
       <>
@@ -26,7 +27,7 @@ const Galery = () => {
                   <div className='dance-galery'>
                      {imagesDance.map((image, i) => (
                         <a href={image} target="_blank" rel="noreferrer" onClick={mobileOrNot}>
-                           {/* <img src={image} alt='dance' key={`${image}_${i}`} loading='lazy'/> FALTA SELECCION DE FOTOS, MAX 20*/}
+{/* <img src={image} alt='dance' key={`${image}_${i}`} loading='lazy'/> FALTA SELECCION DE FOTOS, MAX 20*/}
                         </a>
                      ))}
                   </div>
@@ -37,7 +38,7 @@ const Galery = () => {
                   <div className='comedy-galery'>
                      {imagesComedy.map((image, i) => (
                         <a href={image} target="_blank" rel="noreferrer" onClick={mobileOrNot}>
-                           {/* <img src={image} alt='comedy' key={`${image}_${i}`} loading='lazy'/> FALTA SELECCION DE FOTOS, MAX 20*/}
+{/* <img src={image} alt='comedy' key={`${image}_${i}`} loading='lazy'/> FALTA SELECCION DE FOTOS, MAX 20*/}
                         </a>
                      ))}
                   </div>
@@ -50,7 +51,7 @@ const Galery = () => {
             <Footer />
          </footer>
       </>
-   )
-}
+   );
+};
 
-export default Galery
+export default Galery;

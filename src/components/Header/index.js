@@ -1,8 +1,8 @@
-import './index.scss'
-import logo from '../../assets/img/VARIACIÓN-LOGO-GENERAL.png'
-import logoMobile from '../../assets/img/VARIACIÓN-LOGo-mobile.png'
-import downArrow from '../../assets/img/down-arrow.svg'
-import { useState } from 'react'
+import React, { useState } from 'react';
+import './index.scss';
+import logo from '../../assets/img/VARIACIÓN-LOGO-GENERAL.png';
+import logoMobile from '../../assets/img/VARIACIÓN-LOGo-mobile.png';
+import downArrow from '../../assets/img/down-arrow.svg';
 
 const Header = () => {
    const [header, setHeader] = useState(false);
@@ -13,22 +13,22 @@ const Header = () => {
       } else {
          setHeader(false);
       }
-   }
+   };
 
    const goToBottom = (e) => {
       e.preventDefault();
       document.querySelector('.footer').scrollIntoView({
-         behavior: 'smooth'
+         behavior: 'smooth',
       });
-   }
+   };
 
    const doNothing = (e) => {
       e.preventDefault();
-   }
+   };
 
    const goToHome = () => {
-      window.location.href='/'
-   }
+      window.location.href = '/';
+   };
 
    window.addEventListener('scroll', changeBackground);
 
@@ -40,7 +40,7 @@ const Header = () => {
                   <img src={logoMobile} alt='logo-mobile' className='logo-mobile' onClick={goToHome} />
                </div>
                <input id="menu-toggle" type="checkbox" />
-               <label className='menu-button-container' for="menu-toggle">
+               <label className='menu-button-container' htmlFor="menu-toggle">
                   <div className='menu-button'></div>
                </label>
                <ul className="menu">
@@ -55,7 +55,6 @@ const Header = () => {
             </section>
 
          </div>
-
 
          <div className={`header-container-desktop sticky ${header ? 'active' : ''}`}>
             <div className='header-desktop-content'>
@@ -82,8 +81,7 @@ const Header = () => {
 
          </div>
       </div>
-   )
-}
+   );
+};
 
-
-export default Header
+export default Header;

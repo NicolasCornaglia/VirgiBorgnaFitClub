@@ -1,10 +1,8 @@
-import './index.scss'/* 
-import imgBaile from '../../assets/img/IMG_8559.JPG' */
-/* import imgComedia from '../../assets/img/CMVB-228.JPG' */
-import Carrusel from '../Carrusel'
+import React from 'react';
+import './index.scss';
+import Carrusel from '../Carrusel';
 
-const News = () => {
-   return (
+const News = () => (
       <div className='news-container'>
          <div className='news'>
             <div className='news-title'>
@@ -19,7 +17,10 @@ const News = () => {
                <div className='news-content-text'>
                   <div>
                      <h2>INSCRIPCIONES</h2>
-                     <p>Aprovecha para comenzar el año de la mejor manera anotandote en las clases que mas te gusten.</p>
+                     <p>
+                        Aprovecha para comenzar el año de la mejor manera
+                        anotandote en las clases que mas te gusten.
+                     </p>
                   </div>
                   <div className='news-links'>
                      <div className='dance'>
@@ -40,7 +41,6 @@ const News = () => {
          </div>
 
       </div>
-   )
-}
+   );
 
-export default News
+export default News;
