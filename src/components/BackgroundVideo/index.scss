@@ -6,19 +6,34 @@
   display: none;
 }
 
+.video-thumb {
+  display: none;
+}
+
+.tiny {
+  display: none;
+}
+
 
 @media (min-width: 768px) {
+  .video-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+
   #background-video {
-  display: block;
-  width: 100vw;
-  height: 53vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+    display: block;
+    width: 100vw;
+    height: 53vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
   }
 
   .video {
@@ -32,5 +47,27 @@
   #background-video {
     object-position: 50% 65%;
   }
+
+  .video-thumb {
+    display: block;
+    width: 100vw;
+    height: 53vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: opacity 400ms ease 0ms;
+  }
+
+  .tiny {
+    display: block;
+    filter: blur(20px);
+    transform: scale(1.1);
+    transition: visibility 0ms ease 400ms;
+  }
+
 
 }

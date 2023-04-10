@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import imgBaile1 from '../../assets/img/B_1561.JPG';
+import imgBaile1 from '../../assets/img/IMG_0184.JPG';
 import imgBaile2 from '../../assets/img/B_1612.JPG';
 import imgCM1 from '../../assets/img/CM-VB-727-modif.jpg';
 import News from '../News';

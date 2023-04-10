@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 import Footer from '../Footer';
-import imgAbout from '../../assets/img/IMG_0184.JPG';
+import imgAbout from '../../assets/img/CM-588.JPG';
 
 const About = () => (
    <>

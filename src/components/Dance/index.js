@@ -25,7 +25,7 @@ const Dance = () => {
       ],
       charac: {
          ages: '17 años en adelante',
-         dateTime: 'Lunes y miércoles 8h | 19:30h / Martes y jueves 13:15h | 19:30h',
+         dateTime: 'Lunes y Miércoles 8h | 19:30h / Martes y Jueves 13:15h | 19:30h',
          duration: '1H',
          wpp: '5493492289969',
       },
@@ -43,12 +43,12 @@ const Dance = () => {
          },
       ],
       charac: {
-         ages: 'De 4 a 6 años',
-         dateTime: 'Consultar',
+         ages: 'Consultar',
+         dateTime: 'Martes y Jueves 10:30h',
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform',
+      enroll: 'https://forms.gle/3Y4qG9xp5AfWiNLR8',
    };
 
    const class3 = {
@@ -67,7 +67,7 @@ const Dance = () => {
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform',
+      enroll: 'https://forms.gle/3Y4qG9xp5AfWiNLR8',
    };
 
    const class4 = {
