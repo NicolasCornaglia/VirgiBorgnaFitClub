@@ -35,7 +35,7 @@
 
          p {
             text-align: justify;
-            text-align-last: center;
+            text-align-last: left;
          }
 
       }
@@ -171,6 +171,7 @@
             p {
                text-align: left;
                text-align-last: left;
+               font-size: 15px;
             }
 
          }
@@ -246,11 +247,18 @@
             object-position: center;
             border-radius: 30px;
          }
-
       }
-
-
    }
+}
 
-
+@media (min-width: 1500px) {
+   .home {
+      .welcome {
+         .welcome-text-content {
+            p {
+               font-size: 18px;
+            }
+         }
+      }
+   }
 }

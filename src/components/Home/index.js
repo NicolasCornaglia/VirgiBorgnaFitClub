@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 import imgBaile1 from '../../assets/img/IMG_0184.JPG';
-import imgBaile2 from '../../assets/img/B_1612.JPG';
+import imgBaile2 from '../../assets/img/QUIENES-SOMOS.jpg';
 import imgCM1 from '../../assets/img/CM-VB-727-modif.jpg';
 import News from '../News';
 import BackgroundVideo from '../BackgroundVideo';
@@ -16,11 +16,21 @@ const Home = () => (
                <div className='welcome-text-content'>
                   <h2>BIENVENIDOS</h2>
                   <p>
-                     En Virgi Borgna Fit Club buscamos que todos nuestros
-                     alumnos sientan que pueden expresarse y diviertirse
-                     en la actividad que mas les guste. Sea bailando o actuando
-                     en comedia musical, priorizamos un buen ambiente
-                     en el que todos disfrutemos de las clases.
+                     De la fusión del arte y la buena vibra, llega a Rafaela un 8 de noviembre
+                     de 2019 esta explosión de energía que vino a revolucionarnos.
+                     <br/>
+                     <br/>
+                     Desde Virgi Borgna Fit Club estamos decididos a vivir cada día con
+                     la absoluta intensidad que nos caracteriza.
+                     <br/>
+                     <br/>
+                     El arte es nuestro medio para llegar a vos, para animarte a que te
+                     muevas, a que salgas de tu zona de confort y te atrevas a conquistar
+                     esos sueños pendientes, dejando de lado los miedos y las frustraciones.
+                     <br/>
+                     <br/>
+                     ¿Estás listo?
+
                   </p>
                </div>
             </div>

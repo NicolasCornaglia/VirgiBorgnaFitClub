@@ -26,7 +26,7 @@ function Activity(props) {
                   </div>
 
                   <div className='card-description'>
-                     <span className='card-subtitle '>Descripcción:</span>
+                     <span className='card-subtitle '>Descripción:</span>
                      <div className='card-summary'>
                         <p>{props.classDescription}</p>
                      </div>

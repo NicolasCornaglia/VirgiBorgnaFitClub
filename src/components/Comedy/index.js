@@ -27,7 +27,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Candela Inocent',
+            name: 'Candela Inocenti',
             img: fitComedyKidsIImg,
          },
       ],
@@ -58,7 +58,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Candela Inocent',
+            name: 'Candela Inocenti',
             img: fitComedyKidsIImg,
          },
       ],
@@ -88,6 +88,10 @@ const Comedy = () => {
             name: 'Jorgelina Saluzzio',
             img: fitComedyKidsIImg,
          },
+         {
+            name: 'Virginia Borgna',
+            img: fitComedyKidsIImg,
+         },
       ],
       charac: {
          ages: 'de 10 a 13 años',
@@ -115,6 +119,10 @@ const Comedy = () => {
             name: 'Jorgelina Saluzzio',
             img: fitComedyKidsIImg,
          },
+         {
+            name: 'Virginia Borgna',
+            img: fitComedyKidsIImg,
+         },
       ],
       charac: {
          ages: 'desde los 14 años.',
@@ -139,7 +147,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: ' Virginia Borgna',
+            name: 'Virginia Borgna',
             img: fitComedyKidsIImg,
          },
          {
