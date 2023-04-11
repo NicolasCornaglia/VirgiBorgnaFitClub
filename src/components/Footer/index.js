@@ -34,7 +34,7 @@ const Footer = () => (
                         </div>
 
                         <div className='information-content'>
-                           <p>Ubicación: Bv. Santa Fé 1158</p>
+                           <p>Ubicación: Bv. Santa Fe 1158</p>
                            <p>
                               Whatsapp:
                               <a href='https://wa.me/message/5SMDQRAXT42ZM1' target="_blank" rel="noopener noreferrer" >

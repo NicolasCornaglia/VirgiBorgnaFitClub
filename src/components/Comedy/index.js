@@ -23,11 +23,11 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Liset Levrino',
+            name: 'Lisette Levrino',
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Candela Inocenti',
+            name: 'Candela Innocenti',
             img: fitComedyKidsIImg,
          },
       ],
@@ -54,11 +54,11 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Liset Levrino',
+            name: 'Lisette Levrino',
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Candela Inocenti',
+            name: 'Candela Innocenti',
             img: fitComedyKidsIImg,
          },
       ],
