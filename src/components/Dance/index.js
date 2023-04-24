@@ -121,7 +121,7 @@ const Dance = () => {
       ],
       charac: {
          ages: 'Sin limite',
-         dateTime: 'Lunes y Miércoles 15:30hs',
+         dateTime: 'Lunes y Miércoles 14:30hs',
          duration: '1h',
          wpp: '5493401416919',
       },
