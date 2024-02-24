@@ -23,7 +23,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Lisette Levrino',
+            name: 'Jorgelina Saluzzio',
             img: fitComedyKidsIImg,
          },
          {
@@ -37,7 +37,7 @@ const Comedy = () => {
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform',
+      enroll: 'https://forms.gle/Giac9dSFZvqrpXCR7',
    };
 
    const class2 = {
@@ -54,7 +54,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Lisette Levrino',
+            name: 'Jorgelina Saluzzio',
             img: fitComedyKidsIImg,
          },
          {
@@ -68,12 +68,12 @@ const Comedy = () => {
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform',
+      enroll: 'https://forms.gle/Giac9dSFZvqrpXCR7',
    };
 
    const class3 = {
       image: fitComedyKidsIIIImg,
-      title: 'Comedia Musical Kids III',
+      title: 'Comedia Musical Pre Teens',
       desc: 'Son dos estímulos semanales que les permitirán desarrollar y adquirir el manejo de las disciplinas que conforman la comedia musical. Aprovechá los escuentos por familia: 2º integrante 20% menos. 3º integrante 40% menos.',
       prof: [
          {
@@ -81,11 +81,11 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Valentina Porta',
+            name: 'Valentina Oregioni',
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Jorgelina Saluzzio',
+            name: 'Alicia Mondino',
             img: fitComedyKidsIImg,
          },
          {
@@ -99,7 +99,7 @@ const Comedy = () => {
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform',
+      enroll: 'https://forms.gle/Giac9dSFZvqrpXCR7',
    };
 
    const class4 = {
@@ -112,7 +112,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Valentina Porta',
+            name: 'Valentina Oregioni',
             img: fitComedyKidsIImg,
          },
          {
@@ -123,14 +123,18 @@ const Comedy = () => {
             name: 'Virginia Borgna',
             img: fitComedyKidsIImg,
          },
+         {
+            name: 'Alicia Mondino',
+            img: fitComedyKidsIImg,
+         },
       ],
       charac: {
-         ages: 'desde los 14 años.',
-         dateTime: 'Lunes y miércoles 13:30h',
+         ages: 'De 15 a 35 años.',
+         dateTime: 'Lunes y miércoles 20:30h',
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform',
+      enroll: 'https://forms.gle/9a1HWNbKrfM9Drn29',
    };
 
    const class5 = {
@@ -143,7 +147,7 @@ const Comedy = () => {
             img: fitComedyKidsIImg,
          },
          {
-            name: 'Valentina Porta',
+            name: 'Valentina Oregioni ',
             img: fitComedyKidsIImg,
          },
          {
@@ -154,14 +158,18 @@ const Comedy = () => {
             name: 'Jorgelina Saluzzio',
             img: fitComedyKidsIImg,
          },
+         {
+            name: 'Alicia Mondino',
+            img: fitComedyKidsIImg,
+         },
       ],
       charac: {
-         ages: 'desde los 14 años.',
-         dateTime: 'Lunes y miércoles 20:30h',
+         ages: 'De 35 años en adelante.',
+         dateTime: 'Lunes y miércoles 13:30h',
          duration: '1H',
          wpp: '5493492289969',
       },
-      enroll: 'https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform',
+      enroll: 'https://forms.gle/9a1HWNbKrfM9Drn29',
    };
 
    const classes = [class1, class2, class3, class4, class5];

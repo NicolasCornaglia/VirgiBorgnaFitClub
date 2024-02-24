@@ -25,17 +25,17 @@ const News = () => (
                <div className='news-links'>
                   <div className='dance'>
                      <h3>Baile</h3>
-                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSeWWPHnAmkItGhjvys9wvLKRACk7NIdP5z8rXnI6M4HvRB-MA/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids</div></a>
+                     <a href='https://forms.gle/D2ziGV6qMbNp3TTi6' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids & Teens</div></a>
                      <br />
-                     <a href='https://forms.gle/URV5xvmTBLdcGzyJ9' target="_blank" rel="noopener noreferrer"><div className='btn'>Teens</div></a>
+                     <a href='https://wa.me/5493492289969' target="_blank" rel="noopener noreferrer"><div className='btn'>Adultos</div></a>
                      <br />
-                     <a href='https://forms.gle/ptgRDt1NEh1de5pZ8' target="_blank" rel="noopener noreferrer"><div className='btn'>Adultos</div></a>
+                     <a href='https://forms.gle/8E7ResjARjLq4tgn6' target="_blank" rel="noopener noreferrer"><div className='btn'>DesafiArte</div></a>
                   </div>
                   <div className='musical-comedy'>
                      <h3>Comedia Musical</h3>
-                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSdKNn2r03imBeGZ-SbaEj1PotW4cEfZoocIdCirWc5yRlDEWw/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids I, II, III </div></a>
+                     <a href='https://forms.gle/Giac9dSFZvqrpXCR7' target="_blank" rel="noopener noreferrer"><div className='btn'>Kids & Pre Teens </div></a>
                      <br />
-                     <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEVsu3BJSiiVZefy78JX4IMtOV1d3TTwdfhTGui8TA9TixDQ/viewform' target="_blank" rel="noopener noreferrer"><div className='btn'>Adolescentes y adultos </div></a>
+                     <a href='https://forms.gle/9a1HWNbKrfM9Drn29' target="_blank" rel="noopener noreferrer"><div className='btn'>Adolescentes & Adultos </div></a>
                   </div>
                </div>
             </div>

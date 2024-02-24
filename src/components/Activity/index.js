@@ -32,12 +32,12 @@ function Activity(props) {
                      </div>
                   </div>
                   <div className='prof-char'>
-                     <div className='professors-container'>
+                     {props.professors.length !== 0 && <div className='professors-container'>
                         <span className='card-subtitle '>Profesores:</span>
                         <div className='professors'>
                            {profArr.map((prof, i) => (<Professor name={prof.name} /* img={prof.img} when we have the photos of the professors, this must be changed */ img={professorDefault} key={`${prof.name}_${i}`} />))}
                         </div>
-                     </div>
+                     </div>}
                      <div className='card-characteristics'>
                         <span className='card-subtitle '>Características:</span>
                         <div className='card-characteristics-columns'>
