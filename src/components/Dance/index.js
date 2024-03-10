@@ -13,6 +13,7 @@ import fitDanceStreetTeensImg from '../../assets/img/dance_optimized/IMG_1606.JP
 import fitDanceSalsaImg from '../../assets/img/dance_optimized/IMG_9194.jpg';
 import fitDanceBachataImg from '../../assets/img/dance_optimized/IMG_8719.JPG';
 import fusionDanceImg from '../../assets/img/IMG_funsion-dance.JPG';
+import desafiARTE from '../../assets/img/IMG_3891.png';
 
 const class1 = {
   image: fitDanceAdultosImg,
@@ -83,7 +84,7 @@ const class5 = {
   prof: [],
   charac: {
     ages: 'De 13 a 15 años.',
-    dateTime: 'Consultar horario.',
+    dateTime: 'Consultar opciones por la mañana y por la tarde.',
     duration: '1h',
     wpp: '5493492289969',
   },
@@ -171,7 +172,7 @@ const class10 = {
 };
 
 const class11 = {
-  image: fusionDanceImg, // falta agregart imagen aqui.
+  image: fusionDanceImg,
   title: 'Fusión Dance',
   desc: 'Como su nombre lo sugiere Fusión Dance se deleita en la mezcla de estilos de baile y músicas variadas. En esta disciplina la expresión libre, la conexión y la musicalidad son protagonistas. Veni a bailar y disfrutar de una clase divertida, sencilla, donde priorizamos movernos y pasarla bien. Movete sin límites .',
   prof: [],
@@ -184,35 +185,28 @@ const class11 = {
   enroll: '',
 };
 
-// const class12 = {
-//   image: fitDanceBachataImg, // falta agregart imagen aqui.
-//   title: 'Taller DESAFIARTE',
-//   desc: 'DesafiARTE es un espacio recreativo destinado a personas con discapacidad,
-//     a partir de los 18 años. Se busca promover y potenciar el autoconocimiento,
-//     a través de la participación en actividades de ocio y conectando con el arte.
-//     Las propuestas están pensadas en la participación plena de todos, por lo que se
-//     tendrán en cuenta las singularidades de cada adulto. En desafiARTE apostamos al
-//     aprendizaje desde la experiencia con otros para autoconocernos, disfrutar, potenciar
-//     habilidades sociales, motrices, estimular los sentidos y de esta manera ENCONTRAR TALENTOS
-//     en cada persona, desde el trabajo en grupo.',
-//   prof: [
-//     {
-//     name: 'Candela Innocenti (acompañante terapéutica)',
-//     img: fitDanceAdultosImg,
-//     },
-//     {
-//       name: 'Emilia Basano (terapista ocupacional)',
-//       img: fitDanceAdultosImg,
-//     },
-//   ],
-//   charac: {
-//     ages: 'De 18 años en adelante',
-//     dateTime: 'viernes 16:00hs.',
-//     duration: '1h 30min',
-//     wpp: '5493492289969',
-//   },
-//   enroll: 'https://forms.gle/8E7ResjARjLq4tgn6',
-// };
+const class12 = {
+  image: desafiARTE,
+  title: 'Taller DESAFIARTE',
+  desc: 'DesafiARTE es un espacio recreativo destinado a personas con discapacidad, a partir de los 18 años. Se busca promover y potenciar el autoconocimiento, a través de la participación en actividades de ocio y conectando con el arte. Las propuestas están pensadas en la participación plena de todos, por lo que se tendrán en cuenta las singularidades de cada adulto. En desafiARTE apostamos al aprendizaje desde la experiencia con otros para autoconocernos, disfrutar, potenciar habilidades sociales, motrices, estimular los sentidos y de esta manera ENCONTRAR TALENTOS en cada persona, desde el trabajo en grupo.',
+  prof: [
+    {
+    name: 'Candela Innocenti (acompañante terapéutica)',
+    img: fitDanceAdultosImg,
+    },
+    {
+      name: 'Emilia Basano (terapista ocupacional)',
+      img: fitDanceAdultosImg,
+    },
+  ],
+  charac: {
+    ages: 'De 18 años en adelante',
+    dateTime: 'Viernes 16:00hs.',
+    duration: '1h 30min',
+    wpp: '5493492289969',
+  },
+  enroll: 'https://forms.gle/8E7ResjARjLq4tgn6',
+};
 
 const Dance = () => {
    const classes = [
@@ -227,6 +221,7 @@ const Dance = () => {
       class9,
       class10,
       class11,
+      class12,
    ];
    return (
     <>
